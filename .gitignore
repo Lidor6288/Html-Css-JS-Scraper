@@ -1,0 +1,25 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore environment files
+.env
+
+# Ignore any zip files (often used for packaging extensions)
+*.zip

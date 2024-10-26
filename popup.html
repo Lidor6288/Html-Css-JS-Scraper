@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Scraper</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Web Scraper</h1>
+    <button id="scrapeButton" class="btn btn-primary">Scrape Content</button>
+    <button id="clearAllButton" class="btn btn-secondary">Clear All</button>
+    <div id="loader" class="loader" aria-hidden="true"></div>
+    <div id="result" class="result-container">
+      <div class="tab-container">
+        <button class="tab-button active" data-tab="html">HTML</button>
+        <button class="tab-button" data-tab="css">CSS</button>
+        <button class="tab-button" data-tab="js">JavaScript</button>
+      </div>
+      <div class="tab-content">
+        <pre id="htmlResult" class="code-block active"></pre>
+        <pre id="cssResult" class="code-block"></pre>
+        <pre id="jsResult" class="code-block"></pre>
+      </div>
+    </div>
+    <div class="button-container">
+      <button id="copyHtmlButton" class="btn btn-html" hidden>Copy HTML</button>
+      <button id="copyCssButton" class="btn btn-css" hidden>Copy CSS</button>
+      <button id="copyJsButton" class="btn btn-js" hidden>Copy JS</button>
+      <button id="downloadButton" class="btn btn-download" hidden>Download All</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

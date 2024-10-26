@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Extractor de HTML/CSS",
+    "description": "El nombre de la extensión"
+  },
+  "extDesc": {
+    "message": "Una extensión simple para extraer HTML y CSS con fines educativos.",
+    "description": "La descripción de la extensión"
+  }
+}

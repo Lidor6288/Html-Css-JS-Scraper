@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Web Scraper",
+    "description": "The name of the extension"
+  },
+  "extDesc": {
+    "message": "A tool to scrape HTML, CSS, and JavaScript from web pages",
+    "description": "The description of the extension"
+  }
+}
